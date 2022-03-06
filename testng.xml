@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+<listeners>
+<listener class-name="Academy.FebE2E.Listeners"/>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Academy.FebE2E.validateTittle"/>
+	</classes>
+	</test>
+
+<test thread-count="5" name="Test1">
+    <classes>
+      <class name="Academy.FebE2E.AppTest"/>
+	</classes>
+	</test>
+
+
+<test thread-count="5" name="Test2">
+    <classes>
+      <class name="Academy.FebE2E.navbarValidation"/>
+</classes>
+	</test>
+
+<test thread-count="5" name="Test3">
+    <classes>
+      <class name="Academy.FebE2E.HomePage"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

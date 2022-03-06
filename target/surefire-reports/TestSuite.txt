@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 224.086 s <<< FAILURE! - in TestSuite
+Academy.FebE2E.validateTittle.basepageValidation  Time elapsed: 50.561 s  <<< FAILURE!
+java.lang.AssertionError: expected [AN ACADEMY TO LEARN EVERYTHING ABOUT TESTING123] but found [AN ACADEMY TO LEARN EVERYTHING ABOUT TESTING]
+	at Academy.FebE2E.validateTittle.basepageValidation(validateTittle.java:22)
+
+Academy.FebE2E.HomePage.basepageNavigation[vijayaa, jdhfkjhf](2)  Time elapsed: 63.565 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <span> is not clickable at point (1335,16) because another element <div class="listbuilder-popup-content"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-5JQ58B7', ip: '192.168.70.25', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220216172458, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 13976, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 77cf9d72-a8ce-494e-ac0d-82fe12218923
+	at Academy.FebE2E.HomePage.basepageNavigation(HomePage.java:25)
+
